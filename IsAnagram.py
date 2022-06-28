@@ -1,4 +1,3 @@
-
 def IsAnagram(s:str, t:str)->bool:
     #First 3 if statements handle errors and edge cases
     #The else statement converts the inputs to ascii, sorts, and gives the results of entry-by-entry comparison
@@ -24,5 +23,3 @@ def IsAnagram(s:str, t:str)->bool:
                 return False
             if(i==(len(s_ascii_sorted)-1)):
                 return True
-
-print(IsAnagram("coast","coas"))
